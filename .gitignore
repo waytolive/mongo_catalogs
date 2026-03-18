@@ -1,0 +1,10 @@
+.idea
+.venv
+__pycache__
+fonts
+sources
+.pypirc
+main.py
+main_test.py
+config.ini
+
