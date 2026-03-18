@@ -14,6 +14,7 @@ import os
 def connect_to_mongodb():
     """Подключение к MongoDB с обработкой ошибок"""
     try:
+
         uri = f"mongodb://{MONGO_USER}:{MONGO_PASSWORD}@{MONGO_HOST}:{MONGO_PORT}/admin"
         client = MongoClient(uri, serverSelectionTimeoutMS=5000)
         # Проверка подключения
